@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>jquery.{%= plugin_name %}.js Sample</title>
+<script src="../lib/jquery.js"></script>
+<script src="../dest/jquery.{%= plugin_name %}.js"></script>
+<style>
+[data-{%= plugin_name %}] {
+}
+</style>
+<script>
+$(function () {
+	$('[data-{%= plugin_name %}]').{%= plugin_name %}();
+});
+</script>
+</head>
+
+<body>
+<div data-{%= plugin_name %}></div>
+</body>
+</html>

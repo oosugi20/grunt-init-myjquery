@@ -1,0 +1,4 @@
+{
+	".DS_Store": false,
+	"src/jquery.plugin_name.js": "src/jquery.{%= plugin_name %}.js"
+}
