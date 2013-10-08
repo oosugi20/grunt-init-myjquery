@@ -37,7 +37,7 @@ module.exports = (grunt) ->
         options:
           banner: '<%= banner %>'
         files: [
-          'dest/jquery.{%= plugin_name %}.js': 'src/jquery.{%= plugin_name %}.js'
+          'dist/jquery.{%= plugin_name %}.js': 'src/jquery.{%= plugin_name %}.js'
         ]
 
     uglify:
@@ -45,7 +45,7 @@ module.exports = (grunt) ->
         options:
           banner: '<%= banner %>'
         files: [
-          'dest/jquery.{%= plugin_name %}.min.js': 'src/jquery.{%= plugin_name %}.js'
+          'dist/jquery.{%= plugin_name %}.min.js': 'src/jquery.{%= plugin_name %}.js'
         ]
 
     shell:
